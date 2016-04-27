@@ -16,7 +16,8 @@ sh ginx_install.sh
 #go to /user/local/nginx 
 cd /user/local/nginx 
 
-#config file oyzhi.com.conf  using https and http/2   根据自己喜好配置 这里默认带HTTPS HHTP/2
+#config file oyzhi.com.conf  
+using https and http/2   根据自己喜好配置 这里默认带HTTPS HHTP/2
 
 #start nginx  启动nginx
 /etc/init.d/nginx start
