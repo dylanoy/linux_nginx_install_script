@@ -2,6 +2,10 @@
 centos nginx install shell script
 centos nginx 1.10.0 安装脚本
 
+#if you need install other version. you edit NGINX_VERSION
+vim nginx_install.sh
+chang NGINX_VERSION="1.19.0"
+
 oyzhi.conf config https and http/2.0
 自带配置文件 oyzhi.com.conf 配置了https和http/2.0
 
