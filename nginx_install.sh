@@ -247,7 +247,7 @@ http {
     text/x-component
     text/x-cross-domain-policy;
 
-  include vhosts/*.conf
+  include vhosts/*.conf;
 }
 EOF
 cat >> ${NGINX_INSTALL_PATH}/conf/mime.types <<EOF
