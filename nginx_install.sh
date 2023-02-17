@@ -1,6 +1,6 @@
 #!/bin/bash
 yum install openssl openssl-devel libxml2-devel libxslt-devel perl-devel perl-ExtUtils-Embed -y
-NGINX_VERSION="1.10.0"
+NGINX_VERSION="1.23.3"
 NGINX_INSTALL_PATH="/usr/local/nginx"
 NGINX_LOG_PATH="/var/logs/nginx"
 
@@ -11,11 +11,11 @@ fi
 if [ ! -d $NGINX_INSTALL_PATH ];then
     mkdir -p $NGINX_INSTALL_PATH
 fi
-if [ ! -f pcre-8.36.tar.gz ];then
-    wget -c http://git.typecodes.com/libs/php/pcre-8.36.tar.gz && tar -zxf pcre-8.36.tar.gz
+if [ ! -f pcre-10.42.tar.gz ];then
+    wget -c http://git.typecodes.com/libs/php/pcre-10.42.tar.gz && tar -zxf pcre-10.42.tar.gz
 fi
-if [ ! -f zlib-1.2.8.tar.gz ];then
-    wget -c http://git.typecodes.com/libs/nginx/zlib-1.2.8.tar.gz && tar -zxf zlib-1.2.8.tar.gz
+if [ ! -f zlib-1.2.13.tar.gz ];then
+    wget -c http://git.typecodes.com/libs/nginx/zlib-1.2.13.tar.gz && tar -zxf zlib-1.2.13.tar.gz
 fi
 
 groupadd -r www && useradd -r -g www -s /bin/false -M www
