@@ -1,10 +1,10 @@
 ## linux_nginx_install_script
 >centos nginx install shell script
->centos nginx 1.10.0 安装脚本
+>centos nginx 1.23.3 安装脚本
 
 ## if you need install other version. you can edit NGINX_VERSION
 `vim nginx_install.sh`
-*chang NGINX_VERSION="1.19.0"*
+*chang NGINX_VERSION="1.23.3"*
 
 ## you can change install path
 `vim nginx_install.sh`
