@@ -42,8 +42,8 @@ cd nginx-${NGINX_VERSION}
 --with-http_secure_link_module \
 --with-http_gzip_static_module \
 --with-http_perl_module \
---with-pcre=../pcre-8.36 \
---with-zlib=../zlib-1.2.8 \
+--with-pcre=../pcre-10.42 \
+--with-zlib=../zlib-1.2.13 \
 --with-debug \
 --with-file-aio \
 --with-mail \
